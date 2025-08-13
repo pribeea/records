@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(250, 234, 215);
+    background-image: url(https://wallpapers.com/images/hd/beautiful-scenery-desktop-wallpaper-ripxyvnzxlskvchv.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    background: linear-gradient(2deg, blue, rgb(0, 0, 80));
+    padding: 10px;
+    text-align: center;
+}
+
+.botao {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.botao:hover {
+    background-color: rgb(81, 81, 255)
+}
+
+.card {
+    border-radius: 20px;
+    border: 1px solid;
+    flex-basis: 600px;
+    width: 1500px;
+
+    background-color: rgba(255, 255, 255, 0.658);
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    color: #19166d;
+    padding: 30px;
+    font-size: 28px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.botao-s {
+    position: absolute;
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px;
+    right: 0;
+}
+
+.botao-s:hover {
+    background-color: rgb(0, 0, 80);
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a::after {
+    content: ' \002192';
+}
+
+a:link {
+    color: rgb(255, 232, 101);
+}
+
+
+a:visited {
+    color: blue;
+}
+
+.footer {
+    background-color: #19166d;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
